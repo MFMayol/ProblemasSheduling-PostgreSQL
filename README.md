@@ -1,4 +1,4 @@
-# Prueba Matías Fernández
+# Prueba Matías Fernández Mayol
 
 Implementación de heurística simple que elige los vehículos más cercanos factibles para cada trip. Para problema de recoger pasajeros en The Optimal
 
