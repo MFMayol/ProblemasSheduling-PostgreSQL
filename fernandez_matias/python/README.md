@@ -20,8 +20,7 @@ El algoritmo busca asignar iterativamente un conjunto de viajes a una flota de v
 
 3. **Función de Costo:**
    Para los vehículos factibles, se calcula un "costo" de asignación:
-   `Costo = Distancia en vacío (Deadhead al origen)`
-   *Nota: Se prioriza estrictamente la minimización de kilómetros muertos para asignar el viaje al vehículo más cercano en términos de distancia.*
+   `Costo = Distancia' Se prioriza estrictamente la minimización de kilómetros muertos para asignar el viaje al vehículo más cercano en términos de distancia.*
 
 4. **Asignación y Actualización:**
    El viaje se asigna al vehículo con el **menor costo factible**. Acto seguido, se actualiza el estado del vehículo (nueva ubicación actual, tiempo actual, acumulación de kilómetros muertos) y se registran los nodos de `pickup` y `dropoff` en su ruta. Los viajes que no logran cumplir las restricciones con ningún vehículo se marcan como `unassigned`.
