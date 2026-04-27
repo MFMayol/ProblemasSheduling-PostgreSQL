@@ -42,7 +42,7 @@ El código está desarrollado aplicando Programación Orientada a Objetos (POO) 
 - `validator.py`: Script secundario para auditar una solución generada. Verifica la congruencia de los tiempos de viaje (distancias a 20 km/h), que las capacidades no sean superadas, y que se respete el fin de jornada y las horas de presentación.
 
 - `metrics.csv`: Archivo generado automáticamente donde se van acumulando los KPIs de cada ejecución de `solve.py`.
-- Directorio `outputs/`: Carpeta generada automáticamente donde se guardan todas las soluciones JSON (para mantener el repositorio ordenado).
+- Directorio `outputs/`: Carpeta generada automáticamente donde se guardan todas las soluciones JSON.
 
 
 ## Instrucciones de Uso
