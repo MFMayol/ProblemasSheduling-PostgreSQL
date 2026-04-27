@@ -56,7 +56,7 @@ Usaré de ejemplo la small, pero simplemente después hay que cambiar el nombre 
 ```bash
 python solve.py --input instancias/small.json --output small_solution.json --metrics metrics.csv
 ```
-*Este comando procesará la instancia, creará/actualizará el archivo `metrics.csv` añadiendo una fila con los KPIs de la solución, y guardará la estructura del ruteo en `outputs`.*
+Este comando procesará la instancia, creará/actualizará el archivo `metrics.csv` añadiendo una fila con los KPIs de la solución, y guardará la estructura del ruteo en `outputs`.*
 
 ### 2. Validar una solución
 Para correr el auditor de reglas de negocio sobre el JSON generado:
