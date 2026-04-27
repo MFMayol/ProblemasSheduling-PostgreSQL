@@ -1,0 +1,647 @@
+{
+    "assigned_trips": [
+        {
+            "trip_id": "V001",
+            "pickup_time": 28800.0,
+            "dropoff_time": 29190.36
+        },
+        {
+            "trip_id": "V006",
+            "pickup_time": 31500,
+            "dropoff_time": 32336.91
+        },
+        {
+            "trip_id": "V007",
+            "pickup_time": 32597.62,
+            "dropoff_time": 34140.54
+        },
+        {
+            "trip_id": "V012",
+            "pickup_time": 35100,
+            "dropoff_time": 36403.03
+        },
+        {
+            "trip_id": "V015",
+            "pickup_time": 36900,
+            "dropoff_time": 38203.08
+        },
+        {
+            "trip_id": "V020",
+            "pickup_time": 39900,
+            "dropoff_time": 40688.66
+        },
+        {
+            "trip_id": "V022",
+            "pickup_time": 41100,
+            "dropoff_time": 41648.21
+        },
+        {
+            "trip_id": "V025",
+            "pickup_time": 42900,
+            "dropoff_time": 43712.74
+        },
+        {
+            "trip_id": "V027",
+            "pickup_time": 44100,
+            "dropoff_time": 45528.48
+        },
+        {
+            "trip_id": "V029",
+            "pickup_time": 45644.16,
+            "dropoff_time": 46627.15
+        },
+        {
+            "trip_id": "V008",
+            "pickup_time": 32700,
+            "dropoff_time": 33536.92
+        },
+        {
+            "trip_id": "V010",
+            "pickup_time": 33900,
+            "dropoff_time": 34986.65
+        },
+        {
+            "trip_id": "V018",
+            "pickup_time": 38700,
+            "dropoff_time": 40003.04
+        },
+        {
+            "trip_id": "V021",
+            "pickup_time": 40500,
+            "dropoff_time": 41725.28
+        },
+        {
+            "trip_id": "V026",
+            "pickup_time": 43500,
+            "dropoff_time": 44301.65
+        },
+        {
+            "trip_id": "V028",
+            "pickup_time": 44700,
+            "dropoff_time": 45085.15
+        },
+        {
+            "trip_id": "V002",
+            "pickup_time": 29100,
+            "dropoff_time": 29985.4
+        },
+        {
+            "trip_id": "V003",
+            "pickup_time": 29700,
+            "dropoff_time": 30970.4
+        },
+        {
+            "trip_id": "V005",
+            "pickup_time": 30995.33,
+            "dropoff_time": 32014.02
+        },
+        {
+            "trip_id": "V013",
+            "pickup_time": 35700,
+            "dropoff_time": 36525.04
+        },
+        {
+            "trip_id": "V017",
+            "pickup_time": 38100,
+            "dropoff_time": 38925.05
+        },
+        {
+            "trip_id": "V019",
+            "pickup_time": 39300,
+            "dropoff_time": 40336.65
+        },
+        {
+            "trip_id": "V023",
+            "pickup_time": 41700,
+            "dropoff_time": 42794.73
+        },
+        {
+            "trip_id": "V024",
+            "pickup_time": 42863.44,
+            "dropoff_time": 43982.58
+        },
+        {
+            "trip_id": "V004",
+            "pickup_time": 30300,
+            "dropoff_time": 31048.19
+        },
+        {
+            "trip_id": "V009",
+            "pickup_time": 33300,
+            "dropoff_time": 34125.03
+        },
+        {
+            "trip_id": "V011",
+            "pickup_time": 34500,
+            "dropoff_time": 35068.7
+        },
+        {
+            "trip_id": "V014",
+            "pickup_time": 36300,
+            "dropoff_time": 37109.89
+        },
+        {
+            "trip_id": "V016",
+            "pickup_time": 37500,
+            "dropoff_time": 37988.7
+        },
+        {
+            "trip_id": "V030",
+            "pickup_time": 45900,
+            "dropoff_time": 46923.01
+        }
+    ],
+    "unassigned_trips": [],
+    "routes": {
+        "VEH001": [
+            {
+                "type": "base_start",
+                "lat": -33.4489,
+                "lon": -70.6693,
+                "time": 28800
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V001",
+                "lat": -33.4489,
+                "lon": -70.6693,
+                "time": 28800.0
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V001",
+                "lat": -33.4372,
+                "lon": -70.6506,
+                "time": 29190.36
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V006",
+                "lat": -33.44,
+                "lon": -70.654,
+                "time": 31500
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V006",
+                "lat": -33.42,
+                "lon": -70.61,
+                "time": 32336.91
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V007",
+                "lat": -33.41,
+                "lon": -70.6,
+                "time": 32597.62
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V007",
+                "lat": -33.455,
+                "lon": -70.675,
+                "time": 34140.54
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V012",
+                "lat": -33.453,
+                "lon": -70.672,
+                "time": 35100
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V012",
+                "lat": -33.417,
+                "lon": -70.607,
+                "time": 36403.03
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V015",
+                "lat": -33.412,
+                "lon": -70.602,
+                "time": 36900
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V015",
+                "lat": -33.448,
+                "lon": -70.667,
+                "time": 38203.08
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V020",
+                "lat": -33.439,
+                "lon": -70.653,
+                "time": 39900
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V020",
+                "lat": -33.421,
+                "lon": -70.611,
+                "time": 40688.66
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V022",
+                "lat": -33.434,
+                "lon": -70.628,
+                "time": 41100
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V022",
+                "lat": -33.443,
+                "lon": -70.659,
+                "time": 41648.21
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V025",
+                "lat": -33.437,
+                "lon": -70.651,
+                "time": 42900
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V025",
+                "lat": -33.418,
+                "lon": -70.608,
+                "time": 43712.74
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V027",
+                "lat": -33.411,
+                "lon": -70.601,
+                "time": 44100
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V027",
+                "lat": -33.452,
+                "lon": -70.671,
+                "time": 45528.48
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V029",
+                "lat": -33.448,
+                "lon": -70.666,
+                "time": 45644.16
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V029",
+                "lat": -33.425,
+                "lon": -70.614,
+                "time": 46627.15
+            },
+            {
+                "type": "base_end",
+                "lat": -33.4489,
+                "lon": -70.6693,
+                "time": 47667.31
+            }
+        ],
+        "VEH002": [
+            {
+                "type": "base_start",
+                "lat": -33.4372,
+                "lon": -70.6506,
+                "time": 28800
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V008",
+                "lat": -33.438,
+                "lon": -70.652,
+                "time": 32700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V008",
+                "lat": -33.418,
+                "lon": -70.608,
+                "time": 33536.92
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V010",
+                "lat": -33.422,
+                "lon": -70.613,
+                "time": 33900
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V010",
+                "lat": -33.451,
+                "lon": -70.668,
+                "time": 34986.65
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V018",
+                "lat": -33.452,
+                "lon": -70.671,
+                "time": 38700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V018",
+                "lat": -33.416,
+                "lon": -70.606,
+                "time": 40003.04
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V021",
+                "lat": -33.413,
+                "lon": -70.603,
+                "time": 40500
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V021",
+                "lat": -33.447,
+                "lon": -70.664,
+                "time": 41725.28
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V026",
+                "lat": -33.445,
+                "lon": -70.663,
+                "time": 43500
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V026",
+                "lat": -33.429,
+                "lon": -70.619,
+                "time": 44301.65
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V028",
+                "lat": -33.433,
+                "lon": -70.627,
+                "time": 44700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V028",
+                "lat": -33.42,
+                "lon": -70.61,
+                "time": 45085.15
+            },
+            {
+                "type": "base_end",
+                "lat": -33.4372,
+                "lon": -70.6506,
+                "time": 45845.71
+            }
+        ],
+        "VEH003": [
+            {
+                "type": "base_start",
+                "lat": -33.4258,
+                "lon": -70.6106,
+                "time": 28800
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V002",
+                "lat": -33.4258,
+                "lon": -70.6106,
+                "time": 29100
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V002",
+                "lat": -33.4569,
+                "lon": -70.6483,
+                "time": 29985.4
+            },
+            {
+                "type": "base_end",
+                "lat": -33.4258,
+                "lon": -70.6106,
+                "time": 30870.79
+            }
+        ],
+        "VEH004": [
+            {
+                "type": "base_start",
+                "lat": -33.415,
+                "lon": -70.605,
+                "time": 28800
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V003",
+                "lat": -33.415,
+                "lon": -70.605,
+                "time": 29700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V003",
+                "lat": -33.4489,
+                "lon": -70.6693,
+                "time": 30970.4
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V005",
+                "lat": -33.45,
+                "lon": -70.67,
+                "time": 30995.33
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V005",
+                "lat": -33.428,
+                "lon": -70.615,
+                "time": 32014.02
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V013",
+                "lat": -33.429,
+                "lon": -70.617,
+                "time": 35700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V013",
+                "lat": -33.446,
+                "lon": -70.662,
+                "time": 36525.04
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V017",
+                "lat": -33.444,
+                "lon": -70.661,
+                "time": 38100
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V017",
+                "lat": -33.427,
+                "lon": -70.616,
+                "time": 38925.05
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V019",
+                "lat": -33.425,
+                "lon": -70.614,
+                "time": 39300
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V019",
+                "lat": -33.449,
+                "lon": -70.669,
+                "time": 40336.65
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V023",
+                "lat": -33.45,
+                "lon": -70.67,
+                "time": 41700
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V023",
+                "lat": -33.423,
+                "lon": -70.613,
+                "time": 42794.73
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V024",
+                "lat": -33.426,
+                "lon": -70.615,
+                "time": 42863.44
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V024",
+                "lat": -33.454,
+                "lon": -70.673,
+                "time": 43982.58
+            },
+            {
+                "type": "base_end",
+                "lat": -33.415,
+                "lon": -70.605,
+                "time": 45360.75
+            }
+        ],
+        "VEH005": [
+            {
+                "type": "base_start",
+                "lat": -33.432,
+                "lon": -70.618,
+                "time": 28800
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V004",
+                "lat": -33.432,
+                "lon": -70.618,
+                "time": 30300
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V004",
+                "lat": -33.445,
+                "lon": -70.66,
+                "time": 31048.19
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V009",
+                "lat": -33.447,
+                "lon": -70.665,
+                "time": 33300
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V009",
+                "lat": -33.43,
+                "lon": -70.62,
+                "time": 34125.03
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V011",
+                "lat": -33.435,
+                "lon": -70.625,
+                "time": 34500
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V011",
+                "lat": -33.442,
+                "lon": -70.658,
+                "time": 35068.7
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V014",
+                "lat": -33.441,
+                "lon": -70.656,
+                "time": 36300
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V014",
+                "lat": -33.424,
+                "lon": -70.612,
+                "time": 37109.89
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V016",
+                "lat": -33.436,
+                "lon": -70.63,
+                "time": 37500
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V016",
+                "lat": -33.419,
+                "lon": -70.609,
+                "time": 37988.7
+            },
+            {
+                "type": "pickup",
+                "trip_id": "V030",
+                "lat": -33.414,
+                "lon": -70.604,
+                "time": 45900
+            },
+            {
+                "type": "dropoff",
+                "trip_id": "V030",
+                "lat": -33.441,
+                "lon": -70.656,
+                "time": 46923.01
+            },
+            {
+                "type": "base_end",
+                "lat": -33.432,
+                "lon": -70.618,
+                "time": 47582.77
+            }
+        ]
+    }
+}

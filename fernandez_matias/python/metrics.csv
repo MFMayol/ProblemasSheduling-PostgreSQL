@@ -1,0 +1,5 @@
+instance_name,total_trips,assigned_trips,unassigned_trips,vehicles_used,total_deadhead_km,total_idle_time_sec
+instancias/muy_large.json,1500,1500,0,150,4053.51,724998.98
+instancias/large.json,150,150,0,15,151.63,96834.71
+instancias/medium.json,30,30,0,5,44.02,37288.89
+instancias/small.json,5,5,0,2,2.89,6410.27

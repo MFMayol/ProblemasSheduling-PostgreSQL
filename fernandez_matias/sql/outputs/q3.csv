@@ -1,0 +1,9 @@
+viaje_id;fecha;inicio_programado;fin_programado;origen_comuna;destino_comuna;num_pasajeros
+V0015;10-02-2026 0:00;10-02-2026 10:54;10-02-2026 11:44;Santiago;La Florida;7
+V0012;10-02-2026 0:00;10-02-2026 18:58;10-02-2026 19:43;Providencia;Las Condes;9
+V0031;11-02-2026 0:00;11-02-2026 8:10;11-02-2026 9:00;Las Condes;Las Condes;8
+V0054;12-02-2026 0:00;12-02-2026 7:51;12-02-2026 8:31;San Miguel;Las Condes;1
+V0052;12-02-2026 0:00;12-02-2026 10:14;12-02-2026 10:44;Ñuñoa;Santiago;10
+V0044;12-02-2026 0:00;12-02-2026 19:25;12-02-2026 19:55;Providencia;Ñuñoa;4
+;;;;;;
+;;;;;;
